@@ -1,6 +1,7 @@
+# Android Bluetooth Wrapper
 This is a wrapper class to be used with an Android AppWidget to provide basic Bluetooth functionality.
 
 Tested with Samsung Galaxy S3 API 19 and Atmega644p with HC-05 Bluetooth module.
 
 # Usage
-
+To use, simply have your AppWidgetProvider extend the BTWidget class. BTWidget.java provides scoped access to enabling and disabling the hardware Bluetooth adapter, pairing and connecting to a slave device, and reading and writing serial data.
